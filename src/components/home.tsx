@@ -25,7 +25,6 @@ export default function Home() {
           <div className="flex-[1]">
           <h3>Built in commands</h3>
           <p>See the list of built in commands</p>
-          <p>NOTE: Execute any external command available in your system's PATH. AY SHELL handles any existing system command</p>
           <a href="/usage">
             <button className="bg-blue-500 cursor-pointer hover:bg-blue-700 text-white font-bold py-2 px-4 rounded">
               Go to Commands

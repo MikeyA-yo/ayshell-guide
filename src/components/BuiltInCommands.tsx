@@ -14,6 +14,7 @@ export default function BuiltInCommands() {
   return (
     <div className="p-8">
       <h1 className="text-3xl font-bold mb-8">Built-in Commands</h1>
+      <p className="text-xl font-bold">NOTE: Execute any external command available in your system's PATH (i.e system commands).</p>
       <div className="space-y-4">
         {commands.map((cmd, index) => (
           <div key={index} className="p-6 bg-white rounded-lg shadow">
