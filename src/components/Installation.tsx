@@ -143,21 +143,21 @@ export default function Installation() {
               </h2>
             </div>
             <p className="text-gray-600 mb-4">
-              Open your terminal and run the following command to verify Aysh Shell is installed correctly:
+              Open your terminal and run the following command to start Aysh Shell:
             </p>
             <div className="bg-gray-900 rounded-lg p-4 flex items-center justify-between">
               <code className="text-green-400 font-mono text-sm">
-                ayshell --version
+                ayshell
               </code>
               <button
-                onClick={() => copyToClipboard("ayshell --version")}
+                onClick={() => copyToClipboard("ayshell")}
                 className="ml-4 bg-gray-700 hover:bg-gray-600 text-white px-3 py-1 rounded text-sm transition-colors"
               >
                 Copy
               </button>
             </div>
             <p className="text-sm text-gray-500 mt-2">
-              You should see the version number if the installation was successful.
+              This should open the Aysh Shell interactive prompt if the installation was successful.
             </p>
           </div>
         </div>
